@@ -67,6 +67,38 @@ nav > a:hover {
     border-radius: 2px;
 }
 
+#banner02 {
+    background-image: url(/imagens/mesa300px.PNG);
+    background-position:  center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    
+}
+
+#botao-loja {
+    font-size: bolder;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.897);
+    padding: 15px 75px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 2px;
+}
+
+#botao-loja:hover {
+    font-size: bolder;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
 main {
     background-color: salmon;
     
@@ -80,8 +112,3 @@ body {
 
 }
 
-#mesa-com-banquinhos {
-    position: absolute;
-    top: -80px;
-    left: 550px;
-}
